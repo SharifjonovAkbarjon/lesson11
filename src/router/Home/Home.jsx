@@ -3,6 +3,7 @@ import Hero from '../../components/Hero/Hero'
 import Featured from '../../components/Featured/Featured'
 import Collection from '../../components/Collection/Collection'
 import Stay from '../../components/Stayhome/Stay'
+import Product from '../../components/Product/Product'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <>
             <Hero/>
             <Featured/>
+            <Product/>
             <Stay/>
             <Collection/>
         </>
